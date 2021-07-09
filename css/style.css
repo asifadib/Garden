@@ -1,3 +1,15 @@
+/* 
+==============================
+Reset CSS 
+==============================
+*/
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    outline: none;
+}
+
 html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -7,28 +19,20 @@ html {
 
 body {
 	font-family: 'Open Sans 400';
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 1.8;
-	letter-spacing: 1px;
+	letter-spacing: 0.0625rem;
 	font-style: normal;
 }
+
 
 /*
 ===========================
 Basic Setup
 ===========================
 */
-*,
-*::after,
-*::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
-a,
-span,
-label {
+a, span, label {
 	display: inline-block;
 }
 
@@ -36,19 +40,13 @@ ul li {
 	list-style: none;
 }
 
-a,
-a:focus {
+a, a:focus {
 	text-decoration: none;
 }
 
-button,
-input,
-textarea,
-button:focus,
-input:focus,
-textarea:focus {
-	border: 0;
-	outline: 0;
+button, input, textarea, button:focus, input:focus, textarea:focus {
+	border: none;
+	outline: none;
 	background-color: transparent;
 }
 
@@ -56,16 +54,7 @@ button {
 	cursor: pointer;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul,
-hr {
+h1, h2, h3, h4, h5, h6, p, ol, ul, hr {
 	margin: 0;
 	padding: 0;
 }
@@ -115,11 +104,13 @@ Font Size
 	font-size: 14px;
 }
 
+
 /*
 ==================================
 Font Color
 ==================================
 */
+
 .text-color-ff {
 	color: #FFFFFF;
 }
@@ -140,11 +131,13 @@ Font Color
 	color: #979797;
 }
 
+
 /*
 ==================================
 BG Color
 ==================================
 */
+
 .bg-color-73 {
 	background: #73b21a;
 }
@@ -166,7 +159,11 @@ BG Color
 }
 
 
+/*
+==================================
 
+==================================
+*/
 
 
 
