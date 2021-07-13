@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, hr {
 Font Size
 ==================================
 */
+
 .font-size-55 {
 	font-size: 55px;
 }
@@ -168,14 +169,31 @@ Reuseable Components Class
 /* Horizontal Row Design */
 .hr-1 {
 	width: 120px;
+	margin-bottom: 6px;
 }
+
 .hr-2 {
 	width: 75px;
 }
+
 .hr-1, .hr-2 {
 	border: 0;
 	border-bottom: 2px solid #73B21A;
 	opacity: 1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Paragraph Text Style */
+.p-text {
+	max-width: 700px;
+}
+
+/* Button Design */
+.btn {
+	max-width: 140px;
+	max-height: 40px;
+	padding: 0 28px;
 }
 
 
