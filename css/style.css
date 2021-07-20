@@ -190,10 +190,13 @@ Reuseable Components Class
 }
 
 /* Button Design */
-.btn {
-	max-width: 140px;
-	max-height: 40px;
-	padding: 0 28px;
+.btn-primary {
+	min-width: 140px;
+	height: 40px;
+	line-height: 40px;
+	background: #73B21A;
+	text-align: center;
+	border-radius: 30px;
 }
 
 
