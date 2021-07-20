@@ -197,10 +197,14 @@ Reuseable Components Class
 	background: #73B21A;
 	text-align: center;
 	border-radius: 30px;
+	color: #FFFFFF;
+	transition: .3s all ease;
 }
 
 
-
+.btn-primary:hover {
+	background: #4B7017;
+}
 
 /*
 ==================================
